@@ -30,7 +30,7 @@ def get_password(network_name):
     except Exception as e:
         return str(e)
 
-network_name = 'Airtel_1561'
+network_name = 'Airtel_1561' # change wifi name
 password = get_password(network_name)
 
 if password:
